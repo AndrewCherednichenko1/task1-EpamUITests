@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="10" name="UI Test Suite" annotations="JDK" parallel="none">
+    <test name="TestRunner">
+        <classes>
+            <class name="TestRunner"/>
+        </classes>
+    </test>
+</suite>
